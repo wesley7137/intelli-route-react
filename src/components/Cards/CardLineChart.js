@@ -1,6 +1,5 @@
 import React from "react";
-import Chart from "chart.js";
-
+import { Chart } from "chart";
 export default function CardLineChart() {
   React.useEffect(() => {
     var config = {
